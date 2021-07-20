@@ -1,0 +1,50 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=yes">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>登入</title>
+	<link href="assets/css/root.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+<div align = "center" style = "margin-top:25%">
+	<div style = "margin-bottom:7%;">
+		<p class = "title">勻溯 能才启适登录系统</p>
+	</div>
+	<div class = "div1" align = "center">
+		<div class="login-modal">
+			<div class="login-box" id="keyLoginModal" role="dialog">
+				<div style = "margin-bottom:10%;">
+					<img class="login-logo" src="img/logo-login.jpg" alt="" style = "width:70%">
+				</div>
+				<div class="input-group" style = "margin-bottom:10%; width:90%;">
+					<div class="input-group-addon" style = "width:5%;">
+						<img src="img/phone-icon.png" alt="">
+					</div>
+					<input type='text' name="mlr_mobile" id="mlr_mobile" class="form-control" placeholder="手机" style = "height:4rem;" value="14038934983"/>
+				</div>
+				<div class="input-group" style = "margin-bottom:10%; width:90%;">
+					<div class="input-group-addon" style = "width:5%;">
+						<img src="assets/img/ys.png" alt="">
+					</div>
+					<input type='text' name="mlr_mcode" id="mlr_mcode" class="form-control" placeholder="验证码" style = "height:4rem;width:50%"/>
+					<button id="mlr_mbtn" onClick="LRPostSMS2()" type = "button" class = "getKey">获取验证码</button>
+				</div>
+				<div class="input-group" style = "margin-bottom:10%; width:90%;">
+				<div class = "loginBtn">
+					<a href="javascript:LRLogin();" class="button">登录</a>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script type="text/javascript" src="assets/js/bootstrap/bootstrap.min.js"></script>
+	
+	<script type="text/javascript" src="assets/js/plugins.js"></script>
+	<script type="text/javascript" src="layui/layui.all.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>

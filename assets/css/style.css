@@ -1,0 +1,80 @@
+html
+{
+	font-size: 62.5%;
+}
+
+body 
+{
+	font: normal 100% Arial,sans-serif;
+	font-size: 1.4rem; 
+	line-height: 1.7em;
+	background-image: url("assets/img/backPic.jfif");
+	background-repeat: no-repeat ;
+	background-size: 100% 100%;
+	background-attachment: fixed;
+} 
+
+a.button 
+{
+	color: rgba(255,255,255,1);
+	text-decoration: none;
+	background-color: rgba(219,87,5,1);
+	font-family: 'Yanone Kaffeesatz';
+	display: block;
+	padding: 4px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	-webkit-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+	-moz-box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+	box-shadow: 0px 9px 0px rgba(219,31,5,1), 0px 9px 25px rgba(0,0,0,.7);
+	text-align: center;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+}
+
+a.button:active {
+	-webkit-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+	-moz-box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+	box-shadow: 0px 3px 0px rgba(219,31,5,1), 0px 3px 6px rgba(0,0,0,.9);
+	position: relative;
+	top: 6px;
+}
+
+button
+{
+	background-color: #ddd;
+	border-radius: 20px;
+}
+
+.loginBtn
+{
+	height: 3rem;
+	width: 100%;
+	font-size: 90%;
+}
+
+.getKey
+{
+	width: 47%;
+	float: right;
+	height: 4rem;
+	font-size: 90%;
+}
+
+.div1
+{
+	background-color: white;
+	width: 85%;
+	padding: 3%;
+}
+
+.title
+{
+	font-size: 200%;
+	color: white;
+}
